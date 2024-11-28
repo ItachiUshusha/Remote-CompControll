@@ -2,7 +2,7 @@ import socket
 import os
 
 port = 10000
-host = '192.168.0.106'  
+host = ''  #Enter your local ip
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind((host, port))
 sock.listen(1)
